@@ -1207,7 +1207,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 144.78 74.93 0)
 			(effects
 				(font
@@ -1262,7 +1262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27939697-c4aa-42c7-8b44-617c672ead05")
-		(property "Reference" "Q2"
+		(property "Reference" "Q1"
 			(at 149.86 100.3299 0)
 			(effects
 				(font
@@ -1280,7 +1280,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_THT:TO-92L_HandSolder"
 			(at 208.28 101.6 0)
 			(effects
 				(font
@@ -1346,7 +1346,7 @@
 		(instances
 			(project ""
 				(path "/111f090e-f09b-4f8c-b614-bde9cc0cc8f4"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -1362,7 +1362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42578930-2067-493b-a63b-b91a5a107c56")
-		(property "Reference" "D2"
+		(property "Reference" "D1"
 			(at 149.86 86.0424 90)
 			(effects
 				(font
@@ -1380,7 +1380,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 147.32 88.9 0)
 			(effects
 				(font
@@ -1416,7 +1416,7 @@
 		(instances
 			(project ""
 				(path "/111f090e-f09b-4f8c-b614-bde9cc0cc8f4"
-					(reference "D2")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -1432,7 +1432,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4265ed7f-3912-4f0a-a2a1-ef197b6e3af6")
-		(property "Reference" "R5"
+		(property "Reference" "R1"
 			(at 139.7 110.4899 0)
 			(effects
 				(font
@@ -1450,7 +1450,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "OptoDevice:R_LDR_5.1x4.3mm_P3.4mm_Vertical"
 			(at 138.43 118.11 90)
 			(effects
 				(font
@@ -1487,7 +1487,7 @@
 		(instances
 			(project ""
 				(path "/111f090e-f09b-4f8c-b614-bde9cc0cc8f4"
-					(reference "R5")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -1519,7 +1519,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
 			(at 133.35 82.55 0)
 			(effects
 				(font
@@ -1574,7 +1574,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f8ebefaa-603b-4f15-83f3-acebc4528de4")
-		(property "Reference" "BT2"
+		(property "Reference" "BT1"
 			(at 121.92 87.0584 0)
 			(effects
 				(font
@@ -1592,7 +1592,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
 			(at 118.11 88.646 90)
 			(effects
 				(font
@@ -1628,7 +1628,7 @@
 		(instances
 			(project ""
 				(path "/111f090e-f09b-4f8c-b614-bde9cc0cc8f4"
-					(reference "BT2")
+					(reference "BT1")
 					(unit 1)
 				)
 			)
