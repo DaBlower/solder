@@ -952,10 +952,10 @@
 		(uuid "08efffc5-9bb5-45dc-8198-003ccd7c69fb")
 	)
 	(junction
-		(at 118.11 82.55)
+		(at 118.11 83.82)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "9a3cb1af-9ba5-464d-9e03-4c13ad617104")
+		(uuid "97fa7758-fc0e-44ff-bfe4-2f6f5c1c2c28")
 	)
 	(junction
 		(at 137.16 120.65)
@@ -964,11 +964,11 @@
 		(uuid "ed7b7663-7d3e-49a4-8f99-bd2d458df23f")
 	)
 	(no_connect
-		(at 148.59 74.93)
+		(at 149.86 72.39)
 		(uuid "977bc2f6-abec-47c7-96ce-1a198c0ad98d")
 	)
 	(no_connect
-		(at 137.16 82.55)
+		(at 135.89 83.82)
 		(uuid "cd64db48-8657-41e0-a8eb-55eb257b75e6")
 	)
 	(wire
@@ -983,7 +983,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 68.58) (xy 140.97 68.58)
+			(xy 118.11 68.58) (xy 118.11 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ee11e16-dffa-4251-8701-ba0a7a508bde")
+	)
+	(wire
+		(pts
+			(xy 118.11 68.58) (xy 142.24 68.58)
 		)
 		(stroke
 			(width 0)
@@ -993,7 +1003,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 71.12) (xy 144.78 71.12)
+			(xy 154.94 68.58) (xy 146.05 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1033,7 +1043,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 68.58) (xy 140.97 74.93)
+			(xy 142.24 68.58) (xy 142.24 72.39)
 		)
 		(stroke
 			(width 0)
@@ -1043,7 +1053,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 82.55) (xy 129.54 82.55)
+			(xy 118.11 83.82) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1053,7 +1063,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 85.09) (xy 118.11 82.55)
+			(xy 118.11 92.71) (xy 118.11 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1063,23 +1073,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 92.71) (xy 142.24 78.74)
+			(xy 142.24 92.71) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "9e4b67d6-59d5-4069-9679-eb4f00a4d8dc")
-	)
-	(wire
-		(pts
-			(xy 118.11 68.58) (xy 118.11 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a359ab78-cadd-4acf-ad94-ba6d26270800")
 	)
 	(wire
 		(pts
@@ -1113,7 +1113,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 83.82) (xy 154.94 71.12)
+			(xy 154.94 83.82) (xy 154.94 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1143,7 +1143,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 118.11 120.65)
+			(xy 118.11 100.33) (xy 118.11 120.65)
 		)
 		(stroke
 			(width 0)
@@ -1173,7 +1173,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 78.74) (xy 133.35 78.74)
+			(xy 142.24 80.01) (xy 132.08 80.01)
 		)
 		(stroke
 			(width 0)
@@ -1183,7 +1183,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 144.78 74.93 90)
+		(at 146.05 72.39 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1192,7 +1192,7 @@
 		(fields_autoplaced yes)
 		(uuid "237fdaa3-c708-47da-8c3b-c6bef0ac20bc")
 		(property "Reference" "RV2"
-			(at 144.78 78.74 90)
+			(at 146.05 76.2 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1200,7 +1200,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer"
-			(at 144.78 81.28 90)
+			(at 146.05 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1208,7 +1208,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
-			(at 144.78 74.93 0)
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1217,7 +1217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 144.78 74.93 0)
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1226,7 +1226,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 144.78 74.93 0)
+			(at 146.05 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1495,7 +1495,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 133.35 82.55 90)
+		(at 132.08 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1504,7 +1504,7 @@
 		(fields_autoplaced yes)
 		(uuid "edd6e9ec-0675-46c4-8938-328f902f47fb")
 		(property "Reference" "RV1"
-			(at 133.35 86.36 90)
+			(at 132.08 87.63 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1512,7 +1512,7 @@
 			)
 		)
 		(property "Value" "R_Potentiometer"
-			(at 133.35 88.9 90)
+			(at 132.08 90.17 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1520,7 +1520,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
-			(at 133.35 82.55 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1529,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 82.55 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1538,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 133.35 82.55 0)
+			(at 132.08 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1566,7 +1566,7 @@
 	)
 	(symbol
 		(lib_id "Device:Battery_Cell")
-		(at 118.11 90.17 0)
+		(at 118.11 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1575,7 +1575,7 @@
 		(fields_autoplaced yes)
 		(uuid "f8ebefaa-603b-4f15-83f3-acebc4528de4")
 		(property "Reference" "BT1"
-			(at 121.92 87.0584 0)
+			(at 121.92 94.6784 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1584,7 +1584,7 @@
 			)
 		)
 		(property "Value" "Battery_Cell"
-			(at 121.92 89.5984 0)
+			(at 121.92 97.2184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1593,7 +1593,7 @@
 			)
 		)
 		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
-			(at 118.11 88.646 90)
+			(at 118.11 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1602,7 +1602,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 118.11 88.646 90)
+			(at 118.11 96.266 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1611,7 +1611,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 118.11 90.17 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
