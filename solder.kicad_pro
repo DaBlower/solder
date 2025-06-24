@@ -58,10 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "lib_footprint_mismatch|137500000|98999086|802cb6d5-d6b4-47f0-8955-7c16a4030987|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|154750000|81470000|dc561d70-48b3-49bf-b106-da4622497e67|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -484,7 +481,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "production/",
+      "plot": "production/v2/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",

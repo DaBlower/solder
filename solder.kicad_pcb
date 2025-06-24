@@ -45,7 +45,7 @@
 			(layerselection 0x00010fc_ffffffff)
 			(plot_on_all_layers_selection 0x0000000_00000000)
 			(disableapertmacros no)
-			(usegerberextensions no)
+			(usegerberextensions yes)
 			(usegerberattributes yes)
 			(usegerberadvancedattributes yes)
 			(creategerberjobfile yes)
@@ -76,7 +76,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "production/")
+			(outputdirectory "production/v2/")
 		)
 	)
 	(net 0 "")
@@ -2338,7 +2338,7 @@
 		(uuid "8091094c-dd2a-4b1a-affb-6b8c2bf63c18")
 		(at 143.276488 74.088629 180)
 		(property "Reference" "G***"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "0802e19e-83ba-411e-8b47-b990e641b653")
@@ -2351,7 +2351,7 @@
 			)
 		)
 		(property "Value" "LOGO"
-			(at 0.75 0 360)
+			(at 0.75 0 0)
 			(layer "B.SilkS")
 			(hide yes)
 			(uuid "b61412fa-8574-4864-9738-b606f3c76ce0")
@@ -2364,7 +2364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "7e7a4bb7-85e1-4074-9be0-18d7894442f9")
@@ -2377,7 +2377,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b890e5c2-c595-45e0-8e3a-4cd1756063d7")
@@ -2390,7 +2390,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b4e01c20-2464-4db7-8562-ce4eefcf977b")
