@@ -14,5 +14,6 @@ A fun light-up-in-the-dark pcb shaped like a duck! You can also use it as a keyt
 * 1 LED
 * 2 Potentiometer
 * 1 Photoresistor
+* 2 Resistors
 
 Made by ```@obob``` on slack for https://solder.hackclub.com/!
