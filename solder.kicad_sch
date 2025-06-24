@@ -346,6 +346,127 @@
 				)
 			)
 		)
+		(symbol "Device:R"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_Photo"
 			(pin_numbers hide)
 			(pin_names
@@ -952,10 +1073,10 @@
 		(uuid "08efffc5-9bb5-45dc-8198-003ccd7c69fb")
 	)
 	(junction
-		(at 118.11 83.82)
+		(at 118.11 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "97fa7758-fc0e-44ff-bfe4-2f6f5c1c2c28")
+		(uuid "364ffa41-c354-48f7-b901-be7f1cbc8faf")
 	)
 	(junction
 		(at 137.16 120.65)
@@ -968,7 +1089,7 @@
 		(uuid "977bc2f6-abec-47c7-96ce-1a198c0ad98d")
 	)
 	(no_connect
-		(at 135.89 83.82)
+		(at 129.54 77.47)
 		(uuid "cd64db48-8657-41e0-a8eb-55eb257b75e6")
 	)
 	(wire
@@ -983,13 +1104,23 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 68.58) (xy 118.11 83.82)
+			(xy 118.11 68.58) (xy 118.11 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ee11e16-dffa-4251-8701-ba0a7a508bde")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 118.11 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "20f09927-5822-4dd3-aaf5-3652eb891982")
 	)
 	(wire
 		(pts
@@ -1010,6 +1141,16 @@
 			(type default)
 		)
 		(uuid "3588c107-0f01-4dea-b9e6-50093d2b2b6a")
+	)
+	(wire
+		(pts
+			(xy 132.08 76.2) (xy 130.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "358b49d6-3681-4132-8b69-dcdc33d8480a")
 	)
 	(wire
 		(pts
@@ -1053,7 +1194,17 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 83.82) (xy 128.27 83.82)
+			(xy 130.81 73.66) (xy 125.73 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87193b6e-0168-4038-bfd1-2d66fd414967")
+	)
+	(wire
+		(pts
+			(xy 118.11 77.47) (xy 121.92 77.47)
 		)
 		(stroke
 			(width 0)
@@ -1063,17 +1214,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 92.71) (xy 118.11 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "933ed574-88ea-4e20-b860-3e1446fd3b0c")
-	)
-	(wire
-		(pts
-			(xy 142.24 92.71) (xy 142.24 80.01)
+			(xy 142.24 92.71) (xy 142.24 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1153,6 +1294,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 76.2) (xy 130.81 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f205267c-92a8-4eb6-a5af-4843d68da744")
+	)
+	(wire
+		(pts
 			(xy 137.16 92.71) (xy 142.24 92.71)
 		)
 		(stroke
@@ -1173,7 +1324,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 80.01) (xy 132.08 80.01)
+			(xy 142.24 76.2) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1494,33 +1645,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Potentiometer")
-		(at 132.08 83.82 90)
+		(lib_id "Device:R")
+		(at 135.89 76.2 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "edd6e9ec-0675-46c4-8938-328f902f47fb")
-		(property "Reference" "RV1"
-			(at 132.08 87.63 90)
+		(uuid "caa4d465-529b-41b5-b070-09bf526c5fca")
+		(property "Reference" "R2"
+			(at 135.89 69.85 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "R_Potentiometer"
-			(at 132.08 90.17 90)
+		(property "Value" "5K1"
+			(at 135.89 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
-			(at 132.08 83.82 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 135.89 77.978 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1529,7 +1680,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 83.82 0)
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 135.89 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d126b3de-a706-4a0b-a5d9-12a425bc8b0e")
+		)
+		(pin "1"
+			(uuid "b7f4fdd0-59cc-41ba-9861-f87e29cc0cb7")
+		)
+		(instances
+			(project ""
+				(path "/111f090e-f09b-4f8c-b614-bde9cc0cc8f4"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer")
+		(at 125.73 77.47 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd6e9ec-0675-46c4-8938-328f902f47fb")
+		(property "Reference" "RV1"
+			(at 125.73 81.28 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_Potentiometer"
+			(at 125.73 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Potentiometer_THT:Potentiometer_Vishay_T73YP_Vertical"
+			(at 125.73 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1538,7 +1757,7 @@
 			)
 		)
 		(property "Description" "Potentiometer"
-			(at 132.08 83.82 0)
+			(at 125.73 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
