@@ -1164,6 +1164,16 @@
 	)
 	(wire
 		(pts
+			(xy 139.7 76.2) (xy 142.24 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a9622c-d86d-487e-a088-cada674bbea8")
+	)
+	(wire
+		(pts
 			(xy 137.16 101.6) (xy 137.16 92.71)
 		)
 		(stroke
@@ -1171,6 +1181,16 @@
 			(type default)
 		)
 		(uuid "4241753b-3d7f-4122-a034-80a42d731300")
+	)
+	(wire
+		(pts
+			(xy 142.24 87.63) (xy 142.24 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aeb70e1-27cc-4af7-b7f4-712b43520fe3")
 	)
 	(wire
 		(pts
@@ -1214,13 +1234,13 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 92.71) (xy 142.24 76.2)
+			(xy 142.24 76.2) (xy 142.24 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9e4b67d6-59d5-4069-9679-eb4f00a4d8dc")
+		(uuid "ae4344e9-9e39-4dbf-95ae-9b487a6ce36a")
 	)
 	(wire
 		(pts
@@ -1321,16 +1341,6 @@
 			(type default)
 		)
 		(uuid "f9509cde-e80c-41fa-98b7-cb19ee7d3a78")
-	)
-	(wire
-		(pts
-			(xy 142.24 76.2) (xy 139.7 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc7000fc-d173-4077-85e2-2caad48feb30")
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
@@ -1639,6 +1649,76 @@
 			(project ""
 				(path "/111f090e-f09b-4f8c-b614-bde9cc0cc8f4"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 142.24 83.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6710d2f3-eb86-4553-bc29-ca62a31a0ef1")
+		(property "Reference" "R3"
+			(at 144.78 82.5499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "5K1"
+			(at 144.78 85.0899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
+			(at 144.018 83.82 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 142.24 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ca638b0-5a2f-4b4e-8267-ad109dbfc0e8")
+		)
+		(pin "1"
+			(uuid "63315f72-a42e-4910-8a88-5300f15178e3")
+		)
+		(instances
+			(project "solder"
+				(path "/111f090e-f09b-4f8c-b614-bde9cc0cc8f4"
+					(reference "R3")
 					(unit 1)
 				)
 			)
